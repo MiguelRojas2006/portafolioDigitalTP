@@ -78,3 +78,20 @@ Permiten ejecutar un bloque de código varias veces consecutivas mientras se cum
 | 5         | 50         | 250             | Retiro exitoso       | 200               |
 
 </details>
+<details>
+<summary><strong> Bibliografía </strong></summary>
+[1] L. Joyanes Aguilar, Fundamentos de Programación: Algoritmos, Estructuras de Datos y Objetos, 4.ª ed. Madrid, España: McGraw-Hill, 2008.
+
+[2] H. M. Deitel y P. J. Deitel, C Cómo Programar, 8.ª ed. México: Pearson Educación, 2016.
+
+[3] B. W. Kernighan y D. M. Ritchie, El Lenguaje de Programación C, 2.ª ed. México: Pearson Educación, 2004.
+
+[4] J. Paredes Velasco, Algoritmos y Programación Estructurada, Madrid, España: RA-MA Editorial, 2014.
+
+[5] A. V. Aho, J. E. Hopcroft y J. D. Ullman, Fundamentos de Ciencias de la Computación. México: CECSA, 2000.
+</details>
+
+<details>
+<summary><strong> Uso de IA </strong></summary>
+Para la elaboración de este portafolio se utilizó una herramienta de inteligencia artificial únicamente como apoyo para conocer la forma adecuada de desglosar y organizar los temas desarrollados. El análisis, desarrollo de actividades, ejercicios, conclusiones y otros contenidos fueron realizados por el estudiante.
+</details>
