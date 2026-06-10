@@ -1,18 +1,19 @@
 # Portafolio Teoría de la Programación
 
-## 🏫 Carátula
+<div align="center">
 
-| Campo | Detalle |
-|---|---|
-| **Institución** | Universidad Nacional de Loja |
-| **Ciudad** | Ciudad Universitaria "Guillermo Falconí Espinosa" |
-| **Facultad** | Facultad de la Energía, las Industrias y los Recursos Naturales No Renovables |
-| **Carrera** | Computación |
-| **Asignatura** | Teoría de la Programación |
-| **Ciclo** | *Primer Ciclo-1A* |
-| **Período académico** | *ABRIL - AGOSTO 2026* |
-| **Docente** | *Ing. Lissette Geoconda López Faicán* |
-| **Estudiante** | *Miguel Alejandro Rojas Orellana* |
+<img width="500" height="500" alt="UNLK" src="https://github.com/user-attachments/assets/ff3c32ae-2b67-49ef-959b-47fe6f8816f0" />
+
+### FACULTAD DE LA ENERGIA, LAS INDUSTRIAS Y LOS RECURSOS NO RENOVABLES
+**CARRERA DE COMPUTACION**
+
+---
+
+**Institución:** Universidad Nacional de Loja
+**Asignatura:** Teoría de la Programación
+**Ciclo:** Primer Ciclo
+**Docente:** Ing. Lissette Geoconda López Faicán
+**Estudiante:** Miguel Alejandro Rojas Orellana
 
 ---
 
