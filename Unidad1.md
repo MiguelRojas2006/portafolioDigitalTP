@@ -1,10 +1,3 @@
-### 📖 Contenidos
-
-- Algoritmo, pseudocódigo, diagrama de flujo, prueba de escritorio, lenguajes de programación.
-- Programación por bloques.
-
----
-
 ### Algoritmos
 Un algoritmo representa una serie de pasos organizados y limitados que se llevan a cabo para solucionar un problema o ejecutar una tarea.
 
