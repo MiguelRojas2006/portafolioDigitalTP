@@ -39,8 +39,10 @@ Permiten ejecutar un bloque de código varias veces consecutivas mientras se cum
 
 </details>
 
-## **Ejemplo**
-**Planteamiento del problema**
+<details>
+<summary><strong> Ejemplo </strong></summary>
+
+## **Planteamiento del problema**
 
 - Desarrollar un programa que permita al usuario ingresar su saldo inicial y realizar 5 operaciones. En cada operación podrá retirar dinero. El programa deberá verificar si tiene saldo suficiente para realizar el retiro y actualizar el saldo disponible.
   
@@ -59,3 +61,20 @@ Permiten ejecutar un bloque de código varias veces consecutivas mientras se cum
 **Salidas:**
 - Resultado de cada operación.
 - Saldo final.
+
+## **Código**
+<img width="288" height="364" alt="image" src="https://github.com/user-attachments/assets/4106998d-4273-467a-b4c1-8bb089b29bb6" />
+
+## **Diagrama**
+<img width="6437" height="2070" alt="Diagrama en blanco (2)" src="https://github.com/user-attachments/assets/a8544112-386e-44c0-9638-90d82cdff90c" />
+
+## **Pruebas de escritorio**
+| Operación | Retiro ($) | Saldo Antes ($) | Resultado            | Saldo Después ($) |
+| --------- | ---------- | --------------- | -------------------- | ----------------- |
+| 1         | 100        | 500             | Retiro exitoso       | 400               |
+| 2         | 50         | 400             | Retiro exitoso       | 350               |
+| 3         | 400        | 350             | Fondos insuficientes | 350               |
+| 4         | 100        | 350             | Retiro exitoso       | 250               |
+| 5         | 50         | 250             | Retiro exitoso       | 200               |
+
+</details>
