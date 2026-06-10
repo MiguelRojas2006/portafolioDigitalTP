@@ -36,7 +36,7 @@
 - Estructuras condicionales
 - Estructuras repetitivas
 
-[Ir a Unidad 1](Unidad2.md)
+[Ir a Unidad 2](Unidad2.md)
 
 ## Unidad 3
 
