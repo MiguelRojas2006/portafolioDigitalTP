@@ -38,3 +38,24 @@ Permiten ejecutar un bloque de código varias veces consecutivas mientras se cum
   <img width="735" height="304" alt="image" src="https://github.com/user-attachments/assets/20f6b8f8-fd62-46fa-8696-a16f81f6d135" />
 
 </details>
+
+## **Ejemplo**
+**Planteamiento del problema**
+
+- Desarrollar un programa que permita al usuario ingresar su saldo inicial y realizar 5 operaciones. En cada operación podrá retirar dinero. El programa deberá verificar si tiene saldo suficiente para realizar el retiro y actualizar el saldo disponible.
+  
+**Análisis del problema**
+**Entradas:**
+- Saldo inicial.
+- Monto a retirar.
+
+**Proceso:**
+- Repetir 5 veces:
+- Solicitar monto de retiro.
+- Verificar si el saldo es suficiente.
+- Si es suficiente, descontar el monto.
+- Si no, mostrar mensaje de fondos insuficientes.
+
+**Salidas:**
+- Resultado de cada operación.
+- Saldo final.
