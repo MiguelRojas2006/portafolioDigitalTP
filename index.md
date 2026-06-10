@@ -10,9 +10,13 @@
 ---
 
 **Institución:** Universidad Nacional de Loja
+
 **Asignatura:** Teoría de la Programación
+
 **Ciclo:** Primer Ciclo
+
 **Docente:** Ing. Lissette Geoconda López Faicán
+
 **Estudiante:** Miguel Alejandro Rojas Orellana
 
 ---
