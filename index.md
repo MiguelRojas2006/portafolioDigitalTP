@@ -16,7 +16,7 @@
 
 ---
 
-## Unidad 1 [Ir a Unidad 1](Unidad1.md)
+## Unidad 1
 
 ### Contenidos
 
@@ -27,6 +27,7 @@
 - Lenguajes de programación.
 - Programación por bloques.
 
+[Ir a Unidad 1](Unidad1.md)
 
 ## Unidad 2
 
@@ -34,6 +35,8 @@
 
 - Estructuras condicionales
 - Estructuras repetitivas
+
+[Ir a Unidad 1](Unidad2.md)
 
 ## Unidad 3
 
