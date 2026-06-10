@@ -18,15 +18,22 @@
 
 ## Unidad 1
 
-### 📖 Contenidos
+### Contenidos
 
-- Algoritmo, pseudocódigo, diagrama de flujo, prueba de escritorio, lenguajes de programación.
+- Algoritmo
+- Pseudocódigo
+- Diagrama de flujo
+- Prueba de escritorio
+- Lenguajes de programación.
 - Programación por bloques.
 
 
 ## Unidad 2
 
----
+### Contenidos
+
+- Estructuras condicionales
+- Estructuras repetitivas
 
 ## Unidad 3
 
