@@ -68,6 +68,9 @@ Permiten ejecutar un bloque de código varias veces consecutivas mientras se cum
 ## **Diagrama**
 <img width="6437" height="2070" alt="Diagrama en blanco (2)" src="https://github.com/user-attachments/assets/a8544112-386e-44c0-9638-90d82cdff90c" />
 
+## **Salida en terminal**
+<img width="712" height="343" alt="image" src="https://github.com/user-attachments/assets/92aa86f6-2a17-4ca4-af87-8310b6b5cd57" />
+
 ## **Pruebas de escritorio**
 | Operación | Retiro ($) | Saldo Antes ($) | Resultado            | Saldo Después ($) |
 | --------- | ---------- | --------------- | -------------------- | ----------------- |
