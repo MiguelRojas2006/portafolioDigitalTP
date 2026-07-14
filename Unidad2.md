@@ -109,3 +109,9 @@ Este ejercicio permitió comprender la importancia de combinar estructuras repet
 <summary><strong> Uso de IA </strong></summary>
 Para la elaboración de este portafolio se utilizó una herramienta de inteligencia artificial únicamente como apoyo para conocer la forma adecuada de desglosar y organizar los temas desarrollados. El análisis, desarrollo de actividades, ejercicios, conclusiones y otros contenidos fueron realizados por el estudiante.
 </details>
+
+<br>
+
+> ### [Regresar a la Portada](#portada)
+
+<br>
