@@ -18,6 +18,8 @@ Son estructuras de control que permiten bifurcar el flujo de ejecución de un pr
 <img width="738" height="465" alt="image" src="https://github.com/user-attachments/assets/3950b557-5e38-4060-9c32-ee4ac20ab1a4" />
 </details>
 
+---
+
 <details>
 <summary><strong> Bucles Repetitivos </strong></summary>
 
@@ -38,6 +40,8 @@ Permiten ejecutar un bloque de código varias veces consecutivas mientras se cum
   <img width="735" height="304" alt="image" src="https://github.com/user-attachments/assets/20f6b8f8-fd62-46fa-8696-a16f81f6d135" />
 
 </details>
+
+---
 
 <details>
 <summary><strong> Ejemplo </strong></summary>
@@ -81,17 +85,26 @@ Permiten ejecutar un bloque de código varias veces consecutivas mientras se cum
 | 5         | 50         | 250             | Retiro exitoso       | 200               |
 
 </details>
+
+---
+
 <details>
 <summary><strong> Principales Dificultades</strong></summary>
 
 Una de las principales dificultades fue controlar correctamente el saldo disponible después de cada retiro, ya que era necesario actualizar el valor de la variable en cada iteración. También se presentó el reto de validar que el usuario no pudiera retirar una cantidad mayor al saldo existente, utilizando adecuadamente las estructuras condicionales dentro del ciclo repetitivo.
 
 </details>
+
+---
+
 <details>
 <summary><strong> Reflexión Crítica </strong></summary>
 
 Este ejercicio permitió comprender la importancia de combinar estructuras repetitivas y condicionales para resolver situaciones reales. Además, ayudó a fortalecer el razonamiento lógico al verificar condiciones antes de ejecutar una acción, garantizando que las operaciones realizadas sean válidas y que el programa funcione de manera correcta y segura.
 </details>
+
+---
+
 <details>
 <summary><strong> Bibliografía </strong></summary>
 [1] L. Joyanes Aguilar, Fundamentos de Programación: Algoritmos, Estructuras de Datos y Objetos, 4.ª ed. Madrid, España: McGraw-Hill, 2008.
