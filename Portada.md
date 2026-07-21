@@ -96,7 +96,9 @@ A partir del desarrollo analítico y práctico de los contenidos abordados a lo 
 
 La Teoría de la Programación constituye la base fundamental para el desarrollo de soluciones informáticas, ya que proporciona los conocimientos necesarios para analizar problemas, diseñar algoritmos y transformarlos en programas funcionales. A lo largo de los diferentes temas estudiados, se comprendió la importancia de utilizar herramientas como el pseudocódigo, los diagramas de flujo, las estructuras condicionales y las estructuras repetitivas para organizar la lógica de una solución de manera clara y eficiente. Además, la práctica constante mediante ejercicios y pruebas de escritorio permitió fortalecer el pensamiento lógico, la capacidad de análisis y la resolución de problemas. En conjunto, estos conocimientos representan un pilar esencial para continuar avanzando en el aprendizaje de la programación y el desarrollo de software.
 
-Uso de IA 
+---
+
+## Uso de IA 
 
 <img width="720" height="540" alt="image" src="https://github.com/user-attachments/assets/0f9d07bb-bec9-400f-86d9-bd76124dc514" />
 
