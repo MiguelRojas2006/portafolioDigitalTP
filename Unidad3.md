@@ -43,61 +43,52 @@ Es el principio de diseño que consiste en descomponer un programa grande y comp
 <details>
 <summary><strong> Arreglos </strong></summary>
 
-## 📌 Introducción
-Un **arreglo** (o *array*) es una estructura de datos homogénea y de acceso directo que almacena una colección finita de elementos del mismo tipo en posiciones contiguas de memoria. Este portafolio recopila los fundamentos teóricos, implementaciones prácticas y ejercicios resueltos sobre arreglos unidimensionales (vectores) y bidimensionales (matrices) en el lenguaje C.
+# 📊 Sección: Arreglos (Arrays) en C
+
+## 🧠 Fundamentación Teórica
+
+Un **arreglo** es una estructura de datos homogénea y de acceso directo que almacena una colección finita de elementos del mismo tipo en posiciones contiguas de memoria RAM. Los arreglos se clasifican según su dimensión:
+
+1. **Arreglos Unidimensionales (Vectores):** Estructuras lineales accesibles mediante un único índice $i$, donde la dirección en memoria del elemento se calcula a partir de la dirección base.
+2. **Arreglos Bidimensionales (Matrices):** Estructuras en forma de tabla organizadas por filas y columnas. En C se ordenan bajo el esquema *Row-Major Order* (almacenamiento por filas contiguas en memoria).
+3. **Arreglos Multidimensionales y Cadenas:** Estructuras de 3 o más dimensiones ($N$-dimensionales) o arreglos de arreglos (como colecciones de cadenas de caracteres `char[][]`).
 
 ---
 
-## 🧠 Fundamentos Teóricos
+## 💻 Ejemplos Prácticos en C por Tipo de Arreglo
 
-### 1. Arreglos Unidimensionales (Vectores)
-Un vector es una lista secuencial de elementos. Se accede a cada valor mediante un índice numérico que inicia en `0`.
-
-* **Declaración:** `tipo_de_dato nombre_arreglo[tamaño];`
-* **Acceso a memoria:** La dirección del elemento `i` se calcula como:  
-  $$\text{Dirección} = \text{Dirección Base} + (i \times \text{tamaño\_tipo})$$
-
-### 2. Arreglos Bidimensionales (Matrices)
-Una matriz es una estructura de datos organizada en filas y columnas.
-
-* **Declaración:** `tipo_de_dato nombre_matriz[filas][columnas];`
-* **Representación en memoria:** En C, las matrices se almacenan en el esquema **Row-Major Order** (orden por filas contiguas).
-
----
-
-## 💻 Ejemplos de Código (C)
-
-### 1. Operaciones Búsicas con Vectores
-Ejemplo de lectura, llenado y cálculo del promedio en un arreglo unidimensional:
+### 1. Arreglo Unidimensional (Vector)
+* **Descripción:** Cálculo del valor promedio de una serie de calificaciones.
+* **Aplicación:** Permite la recolección secuencial y la acumulación de datos en un solo ciclo.
 
 ```c
-#include <stdio.stdio.h>
+#include <stdio.h>
 
 #define TAM 5
 
 int main() {
-    int numeros[TAM];
-    int suma = 0;
+    float notas[TAM] = {8.5, 9.0, 7.5, 10.0, 8.0};
+    float suma = 0.0;
     float promedio;
 
-    // Llenado del vector
-    printf("Ingrese %d números enteros:\n", TAM);
+    printf("--- ARREGLO UNIDIMENSIONAL (VECTOR) ---\n");
     for (int i = 0; i < TAM; i++) {
-        printf("Elemento [%d]: ", i);
-        scanf("%d", &numeros[i]);
-        suma += numeros[i];
+        printf("Nota [%d]: %.2f\n", i, notas[i]);
+        suma += notas[i];
     }
 
-    promedio = (float)suma / TAM;
-    printf("\nLa suma es: %d\n", suma);
-    printf("El promedio es: %.2f\n", promedio);
+    promedio = suma / TAM;
+    printf("Promedio general: %.2f\n\n", promedio);
 
     return 0;
 }
 ```
 
-### 2. Recorrido de Matrices
-Ejemplo de inicialización e impresión de una matriz de $3 \times 3$:
+---
+
+### 2. Arreglo Bidimensional (Matriz)
+* **Descripción:** Representación y cálculo de la suma de filas de una matriz de $3 \times 3$.
+* **Aplicación:** Utilizado para manipulación de tablas, imágenes o sistemas de ecuaciones.
 
 ```c
 #include <stdio.h>
@@ -107,18 +98,22 @@ Ejemplo de inicialización e impresión de una matriz de $3 \times 3$:
 
 int main() {
     int matriz[FILAS][COLS] = {
-        {1, 2, 3},
-        {4, 5, 6},
-        {7, 8, 9}
+        {5, 8, 2},
+        {1, 9, 4},
+        {6, 3, 7}
     };
 
-    printf("Contenido de la matriz:\n");
+    printf("--- ARREGLO BIDIMENSIONAL (MATRIZ) ---\n");
     for (int i = 0; i < FILAS; i++) {
+        int sumaFila = 0;
+        printf("Fila %d: ", i);
         for (int j = 0; j < COLS; j++) {
-            printf("%d\t", matriz[i][j]);
+            printf("%d ", matriz[i][j]);
+            sumaFila += matriz[i][j];
         }
-        printf("\n");
+        printf("| Suma de la fila: %d\n", sumaFila);
     }
+    printf("\n");
 
     return 0;
 }
@@ -126,23 +121,34 @@ int main() {
 
 ---
 
-## ⚡ Algoritmos Clave sobre Arreglos
+### 3. Arreglo Multidimensional / Matriz de Cadenas de Caracteres
+* **Descripción:** Almacenamiento y procesamiento de una lista de nombres utilizando un arreglo de arreglos (`char[FILAS][LONGITUD]`).
+* **Aplicación:** Manipulación de colecciones de textos o registros tridimensionales en memoria.
 
-| Algoritmo | Descripción | Complejidad Temporal |
-| :--- | :--- | :--- |
-| **Búsqueda Secuencial** | Recorre el arreglo elemento por elemento hasta encontrar el objetivo. | $O(n)$ |
-| **Búsqueda Binaria** | Requiere que el arreglo esté ordenado. Divide el rango a la mitad en cada paso. | $O(\log n)$ |
-| **Ordenamiento Burbuja** | Compara e intercambia elementos adyacentes si están en el orden incorrecto. | $O(n^2)$ |
+```c
+#include <stdio.h>
 
----
+#define TOTAL_ESTUDIANTES 4
+#define MAX_LONGITUD 30
 
-## 🚀 Conclusiones
-1. Los arreglos son fundamentales para gestionar colecciones de datos con acceso rápido $O(1)$ mediante índices.
-2. Tienen un tamaño estático definido en tiempo de compilación, por lo que la gestión eficiente del espacio de memoria es crucial.
-3. El uso adecuado de bucles anidados permite manipular estructuras multidimensionales complejas de manera ordenada.
+int main() {
+    // Arreglo de 2 dimensiones usado como colección de cadenas de texto
+    char estudiantes[TOTAL_ESTUDIANTES][MAX_LONGITUD] = {
+        "Miguel Rojas",
+        "Karen Lalangui",
+        "David Luna",
+        "Andy Ordonez"
+    };
 
+    printf("--- ARREGLO MULTIDIMENSIONAL (CADENAS) ---\n");
+    printf("Lista de Integrantes Registrados:\n");
+    for (int i = 0; i < TOTAL_ESTUDIANTES; i++) {
+        printf("Estudiante #%d: %s\n", i + 1, estudiantes[i]);
+    }
+
+    return 0;
+}
 ```
-
 ---
 
 </details>
