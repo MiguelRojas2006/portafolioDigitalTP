@@ -1,4 +1,5 @@
-### Algoritmos
+<details>
+<summary><strong> Algoritmos </strong></summary>
 Un algoritmo representa una serie de pasos organizados y limitados que se llevan a cabo para solucionar un problema o ejecutar una tarea.
 
  En otras palabras, es similar a una receta: indica de manera precisa qué acciones realizar, paso a paso, para lograr un resultado específico.
@@ -29,8 +30,12 @@ Un algoritmo representa una serie de pasos organizados y limitados que se llevan
  * Clarity: cada paso es específico
  * Eficaz: busca solucionar el problema de manera adecuada
 
+</details>
 
-#### Pseudocódigo
+---
+
+<details>
+<summary><strong> Pseudocódigo </strong></summary>
 
 El pseudocódigo representa una manera de formular un algoritmo empleando un lenguaje directo, similar al español o al inglés, pero con una organización lógica comparable a la de la programación.
 
@@ -64,7 +69,12 @@ El pseudocódigo representa una manera de formular un algoritmo empleando un len
  * Carece de normas estrictas como un verdadero lenguaje
  * Se centra en la lógica, no en la gramática
 
-#### Diagrama de flujo
+</details>
+
+---
+
+<details>
+<summary><strong> Diagrama de Flujo </strong></summary>
 
 Un diagrama de flujo es una representación visual de un algoritmo que utiliza símbolos y flechas para ilustrar las etapas de un procedimiento.
 
@@ -106,7 +116,12 @@ Un diagrama de flujo es una representación visual de un algoritmo que utiliza s
  * Identificar fallos antes de codificar
  * Describir procedimientos de manera clara
 
-#### Prueba de escritorio
+</details>
+
+---
+
+<details>
+<summary><strong> Prueba de Escritorio </strong></summary>
 
 La verificación manual es un método para analizar un algoritmo de manera secuencial, simulando su funcionamiento a nivel personal, sin recurrir a una computadora.
 
@@ -152,7 +167,12 @@ La verificación manual es un método para analizar un algoritmo de manera secue
  * Comprender el funcionamiento del algoritmo
  * Garantizar que el resultado sea el correcto
 
-#### 🔹 Codificación (código fuente)
+</details>
+
+---
+
+<details>
+<summary><strong>🔹Codificación (código fuente) </strong></summary> 
 
 La **codificación** (o **código fuente**) es la etapa donde un algoritmo se convierte en instrucciones reales escritas en un lenguaje de programación que la computadora puede interpretar.
 
@@ -203,6 +223,8 @@ En la programación, la codificación permite:
 * **Pseudocódigo** → idea escrita
 * **Diagrama de flujo** → idea dibujada
 * **Código fuente** → idea programada
+
+</details>
 
 ---
 
