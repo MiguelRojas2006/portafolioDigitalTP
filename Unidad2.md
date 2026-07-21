@@ -111,6 +111,4 @@ Este ejercicio permitió comprender la importancia de combinar estructuras repet
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/3a309bdc-e85a-4ab8-a26c-3c153bfc38e9" />
 
 
-> ### ⬆️ [Regresar a la Portada](#portada)
-
-<br>
+[🏠 Volver a la Portada](./Portada.md)
