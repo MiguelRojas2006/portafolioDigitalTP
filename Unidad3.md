@@ -233,3 +233,5 @@ La transición hacia la **programación modular** y el uso de **estructuras de d
 
 
 </details>
+
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/67b61692-0877-428c-84c1-90ddb536fb2d" />
