@@ -85,6 +85,8 @@ int main() {
 ```
 </details>
 
+---
+
 <details>
 <summary><strong> Arreglos </strong></summary>
 
@@ -195,5 +197,39 @@ int main() {
 }
 ```
 ---
+
+</details>
+
+---
+
+<details>
+<summary><strong> Principales Dificultades  </strong></summary>
+
+Durante el aprendizaje e implementación de los contenidos de la **Unidad 3 (Modularidad y Arreglos)**, se presentaron los siguientes retos principales:
+
+1. **Gestión de Memoria y Punteros en el Paso por Referencia:**
+   * **Desafío:** Comprender la diferencia conceptual entre enviar una copia del valor (`paso por valor`) y enviar la dirección de memoria exacta (`paso por referencia` mediante `&` y `*`).
+   * **Impacto:** Al inicio, se generaban errores de segmentación (*segmentation fault*) o modificaciones no deseadas en variables al desreferenciar mal los punteros dentro de las funciones.
+
+2. **Control de Índices y Desbordamiento en Arreglos (Out of Bounds):**
+   * **Desafío:** El lenguaje C no verifica de forma automática si un índice excede el límite del arreglo (`0` a `N-1`).
+   * **Impacto:** Acceder a posiciones como `arreglo[N]` provocaba comportamiento indeterminado o lectura de "datos basura" alojados en celdas contiguas de la RAM.
+
+3. **Lógica de Recorrido en Arreglos Bidimensionales y Multidimensionales:**
+   * **Desafío:** La correcta anidación de ciclos `for` (subíndices $i$ para filas y $j$ para columnas) y la manipulación de cadenas de texto como matrices de caracteres (`char[][]`).
+   * **Impacto:** Dificultad para visualizar el orden de almacenamiento en memoria (*Row-Major Order*) y para asegurar la correcta colocación del carácter nulo de terminación (`\0`).
+
+</details>
+
+---
+
+<details>
+<summary><strong> Reflexión Crítica </strong></summary>
+
+La transición hacia la **programación modular** y el uso de **estructuras de datos compuestas** representa un salto fundamental en el pensamiento computacional. 
+
+* **De código monolítico a arquitectura escalable:** Superar la tentación de escribir todo el código dentro de la función `main()` permite comprender la importancia de la *mantenibilidad* en el desarrollo de software real. La modularidad no solo limpia el código, sino que facilita el trabajo colaborativo en equipo y las pruebas unitarias.
+* **Importancia del control de bajo nivel:** Aunque otros lenguajes de programación gestionan los arreglos y la memoria de manera implícita, trabajar estas estructuras en C brinda una comprensión profunda de cómo el procesador gestiona la memoria RAM. Esto sienta una base sólida para asignaturas futuras relacionadas con estructuras de datos avanzadas, gestión de memoria y optimización de algoritmos.
+
 
 </details>
