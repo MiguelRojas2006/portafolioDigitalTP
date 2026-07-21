@@ -228,18 +228,28 @@ En la programación, la codificación permite:
 
 ---
 
-### 📌 Resumen
+<details>
+<summary><strong> 📌 Resumen </strong></summary>
 
 👉 La **codificación** es pasar la lógica a un lenguaje de programación
 👉 El **código fuente** es el resultado final escrito
 
-### 💬 Principales dificultades y reflexión crítica
-
-Muchas dificultades se presentan a manera de no saber los lenguajes de programación de ante mano o tener problemas con diferentes idiomas.
+</details>
 
 ---
 
-## Reflexion critica
+<details>
+<summary><strong> Principales Dificultades </strong></summary>
+
+Muchas dificultades se presentan a manera de no saber los lenguajes de programación de ante mano o tener problemas con diferentes idiomas.
+
+</details>
+
+---
+
+<details>
+<summary><strong> 💬 Reflexión Crítica </strong></summary>
 
 Al haber finalizado esta primera unidad podemos saber que no se debería comenzar a desarrollar código de forma inmediata. Muchos principiantes comenten esta equivocación. Si no se realizan actividades como planear el algoritmo o utilizar herramientas como pseudocódigo y diagramas, los programas resultan ser deficientes. Se vuelven complicados de comprender y presentan numerosos errores. Estos pasos preliminares no son solo para aprender. Constituyen fundamentos para razonar de manera ordenada y lógica. El algoritmo configura la solución. El pseudocódigo facilita la comprensión. El diagrama de flujo presenta el proceso de manera visual. Si se ignoran, el programador se basa más en prueba y error que en un pensamiento claro. Sin embargo, en la práctica, algunos programadores con más experiencia suelen omitir estos pasos. Esto se debe a que su experiencia les imparte la lógica. Esto genera un punto interesante. Son cruciales para los principiantes. Para los que ya son expertos, se vuelven una acción habitual. Al final, no deberían ser considerados como una obligación. Deberían ser vistos como un recurso que contribuye a que el software sea comprensible, útil y de alta calidad. Emplearlos desde el inicio mejora los resultados. También establece una buena base para solucionar problemas más complejos en el futuro.
 
+</details>
