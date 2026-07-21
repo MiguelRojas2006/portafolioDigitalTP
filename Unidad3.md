@@ -3,41 +3,86 @@
 <details>
 <summary><strong> Modularidad </strong></summary>
 
-## ¿Qué es la Modularidad?
+# 🧩 Sección: Modularidad en C
 
-Es el principio de diseño que consiste en descomponer un programa grande y complejo en unidades pequeñas, autónomas y manejables llamadas módulos (funciones en C). 
+## 🧠 Fundamentación Teórica
 
-**Ventaja principal:** Permite la reutilización de código; una vez creada una función (ej. para leer una tarjeta de bus), puedes usarla en diferentes partes del programa sin reescribirla.  
+La **modularidad** es un principio de diseño de software que consiste en dividir un programa complejo en subprogramas más pequeños, independientes y manejables denominados **funciones** o **procedimientos**. 
 
-**Abstracción:** Oculta los detalles internos de cómo se ejecuta una tarea. El usuario de la función solo necesita saber qué recibe (parámetros) y qué devuelve.  
+### Ventajas de la Modularidad:
+* **Reusabilidad:** Reduce la duplicación de código permitiendo invocar la misma lógica múltiples veces.
+* **Mantenibilidad:** Facilita la detección y corrección de errores al aislar bloques de código.
+* **Legibilidad:** Mejora la estructura global de la aplicación al mantener la función `main()` limpia y enfocada en el flujo principal.
 
-## Mecanismos de paso de parámetros
+### Mecanismos de Paso de Parámetros en C:
+1. **Paso por Valor:** La función recibe una copia exacta del dato alojado en la variable de origen. Cualquier modificación realizada dentro del cuerpo de la función no altera la variable original en la función llamadora.
+2. **Paso por Referencia:** Se pasa la dirección de memoria de la variable mediante punteros (`*`). Esto permite a la función acceder directamente a la celda de memoria original y modificar su valor de forma permanente.
 
-## 1. Paso por valor (Value)
+---
 
-- **Funcionamiento:** La función recibe una copia del valor de la variable original.
+## 💻 Ejemplos Prácticos en C
 
-- **Efecto:** Si la función modifica el valor, el cambio ocurre solo dentro de la función. La variable original en el main() permanece intacta.
+### 1. Paso de Parámetros por Valor
+* **Descripción:** Cálculo del área de un rectángulo.
+* **Comportamiento:** Las variables `base` y `altura` se copian en los parámetros de la función `calcularArea`. Si la función intentara modificar esos parámetros, los valores originales en `main()` permanecerían intactos.
 
-- **Cuándo usarlo:** Cuando solo necesitas consultar un dato sin alterar la fuente original (ej. calcular un promedio de notas).
+```c
+#include <stdio.h>
 
-## 2. Paso por referencia (Reference)
+// Función que recibe parámetros por valor y retorna un resultado de tipo float
+float calcularArea(float base, float altura) {
+    float area = base * altura;
+    return area;
+}
 
-- **Funcionamiento:** La función recibe la dirección de memoria (&) de la variable original utilizando punteros.
-  
-- **Efecto:** Cualquier cambio realizado dentro de la función altera directamente la variable original, ya que ambos comparten la misma ubicación en memoria.
-  
-- **Cuándo usarlo:** Cuando necesitas que una función actualice múltiples valores o modifique una estructura de datos externa (ej. actualizar el saldo de una tarjeta en tu proyecto de bus).
+int main() {
+    float b = 5.0;
+    float h = 3.0;
 
-### Comparativa: Paso por Valor vs. Paso por Referencia
+    printf("--- MODULARIDAD: PASO POR VALOR ---\n");
+    printf("Base original: %.2f\n", b);
+    printf("Altura original: %.2f\n", h);
 
-| Característica | Paso por Valor | Paso por Referencia |
-| :--- | :--- | :--- |
-| **¿Qué se envía?** | Una copia del dato | La dirección de memoria (`&`) |
-| **Sintaxis** | `void func(int n)` | `void func(int *n)` |
-| **Impacto en original** | Ninguno (es local) | Directo y permanente |
-| **Uso en memoria** | Mayor (se crea copia) | Menor (se usa la misma) |
-| **Uso práctico** | Consultar datos | Modificar/actualizar datos |
+    // Llamada a la función enviando copias de los valores
+    float resultado = calcularArea(b, h);
+
+    printf("El área calculada es: %.2f\n\n", resultado);
+
+    return 0;
+}
+```
+
+---
+
+### 2. Paso de Parámetros por Referencia
+* **Descripción:** Intercambio de valores (*swap*) entre dos variables enteras utilizando punteros.
+* **Comportamiento:** Se envían las direcciones de memoria (`&a`, `&b`) a la función `intercambiar`. La función utiliza el operador de desreferencia (`*`) para alterar directamente el contenido de las variables originales.
+
+```c
+#include <stdio.h>
+
+// Función que recibe las direcciones de memoria (punteros) de dos enteros
+void intercambiar(int *num1, int *num2) {
+    int aux = *num1; // Guardamos el valor apuntado por num1 en una variable temporal
+    *num1 = *num2;   // Asignamos el valor apuntado por num2 a la dirección de num1
+    *num2 = aux;     // Asignamos el valor temporal a la dirección de num2
+}
+
+int main() {
+    int x = 10;
+    int y = 20;
+
+    printf("--- MODULARIDAD: PASO POR REFERENCIA ---\n");
+    printf("Valores antes del intercambio: x = %d, y = %d\n", x, y);
+
+    // Se envían las direcciones de memoria utilizando el operador '&'
+    intercambiar(&x, &y);
+
+    printf("Valores después del intercambio: x = %d, y = %d\n\n", x, y);
+
+    return 0;
+}
+```
 </details>
 
 <details>
