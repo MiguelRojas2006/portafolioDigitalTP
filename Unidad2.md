@@ -105,10 +105,6 @@ Este ejercicio permitió comprender la importancia de combinar estructuras repet
 [5] A. V. Aho, J. E. Hopcroft y J. D. Ullman, Fundamentos de Ciencias de la Computación. México: CECSA, 2000.
 </details>
 
-<details>
-<summary><strong> Uso de IA </strong></summary>
-Para la elaboración de este portafolio se utilizó una herramienta de inteligencia artificial únicamente como apoyo para conocer la forma adecuada de desglosar y organizar los temas desarrollados. El análisis, desarrollo de actividades, ejercicios, conclusiones y otros contenidos fueron realizados por el estudiante.
-</details>
 
 <br>
 
