@@ -73,6 +73,7 @@ Arreglos
 
 A partir del desarrollo analítico y práctico de los contenidos abordados a lo largo del ciclo académico en la asignatura de **Teoría de la Programación**, se establecen las siguientes conclusiones integrales por cada una de las unidades de aprendizaje:
 
+
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/1336e893-9200-491e-aa9c-b8a73cc8c55f" />
 
 
@@ -100,6 +101,7 @@ A partir del desarrollo analítico y práctico de los contenidos abordados a lo 
 
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/1215200d-4268-44e6-8476-5146ca0defda" />
 
+
 La Teoría de la Programación constituye la base fundamental para el desarrollo de soluciones informáticas, ya que proporciona los conocimientos necesarios para analizar problemas, diseñar algoritmos y transformarlos en programas funcionales. A lo largo de los diferentes temas estudiados, se comprendió la importancia de utilizar herramientas como el pseudocódigo, los diagramas de flujo, las estructuras condicionales y las estructuras repetitivas para organizar la lógica de una solución de manera clara y eficiente. Además, la práctica constante mediante ejercicios y pruebas de escritorio permitió fortalecer el pensamiento lógico, la capacidad de análisis y la resolución de problemas. En conjunto, estos conocimientos representan un pilar esencial para continuar avanzando en el aprendizaje de la programación y el desarrollo de software.
 
 ---
@@ -107,6 +109,7 @@ La Teoría de la Programación constituye la base fundamental para el desarrollo
 ## Uso de IA 
 
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/0f9d07bb-bec9-400f-86d9-bd76124dc514" />
+
 
 
 Para la elaboración de este portafolio se utilizó una herramienta de inteligencia artificial únicamente como apoyo para conocer la forma adecuada de desglosar y organizar los temas desarrollados. El análisis, desarrollo de actividades, ejercicios, conclusiones y otros contenidos fueron realizados por el estudiante.
@@ -117,6 +120,7 @@ Para la elaboración de este portafolio se utilizó una herramienta de inteligen
 Bibliografía 
 
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/045c909a-d394-454d-87b5-5d22b224234c" />
+
 
 
 [1] L. Joyanes Aguilar, Fundamentos de Programación: Algoritmos, Estructuras de Datos y Objetos, 4.ª ed. Madrid, España: McGraw-Hill, 2008.
