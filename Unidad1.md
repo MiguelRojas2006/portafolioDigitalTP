@@ -1,5 +1,5 @@
 <details>
-<summary><strong> Algoritmos </strong></summary>
+<summary><strong> 📘Algoritmos </strong></summary>
 Un algoritmo representa una serie de pasos organizados y limitados que se llevan a cabo para solucionar un problema o ejecutar una tarea.
 
  En otras palabras, es similar a una receta: indica de manera precisa qué acciones realizar, paso a paso, para lograr un resultado específico.
@@ -35,7 +35,7 @@ Un algoritmo representa una serie de pasos organizados y limitados que se llevan
 ---
 
 <details>
-<summary><strong> Pseudocódigo </strong></summary>
+<summary><strong> 📖Pseudocódigo </strong></summary>
 
 El pseudocódigo representa una manera de formular un algoritmo empleando un lenguaje directo, similar al español o al inglés, pero con una organización lógica comparable a la de la programación.
 
@@ -74,7 +74,7 @@ El pseudocódigo representa una manera de formular un algoritmo empleando un len
 ---
 
 <details>
-<summary><strong> Diagrama de Flujo </strong></summary>
+<summary><strong> 🧠Diagrama de Flujo </strong></summary>
 
 Un diagrama de flujo es una representación visual de un algoritmo que utiliza símbolos y flechas para ilustrar las etapas de un procedimiento.
 
@@ -121,7 +121,7 @@ Un diagrama de flujo es una representación visual de un algoritmo que utiliza s
 ---
 
 <details>
-<summary><strong> Prueba de Escritorio </strong></summary>
+<summary><strong> 🛠️Prueba de Escritorio </strong></summary>
 
 La verificación manual es un método para analizar un algoritmo de manera secuencial, simulando su funcionamiento a nivel personal, sin recurrir a una computadora.
 
@@ -239,7 +239,7 @@ En la programación, la codificación permite:
 ---
 
 <details>
-<summary><strong> Principales Dificultades </strong></summary>
+<summary><strong> 🚧Principales Dificultades </strong></summary>
 
 Muchas dificultades se presentan a manera de no saber los lenguajes de programación de ante mano o tener problemas con diferentes idiomas.
 
