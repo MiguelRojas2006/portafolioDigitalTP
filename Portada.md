@@ -98,7 +98,7 @@ La Teoría de la Programación constituye la base fundamental para el desarrollo
 
 Uso de IA 
 
-<img width="1152" height="2048" alt="image" src="https://github.com/user-attachments/assets/0e9f9de8-fe74-479f-a49a-494b708db815" />
+<img width="720" height="540" alt="image" src="https://github.com/user-attachments/assets/0f9d07bb-bec9-400f-86d9-bd76124dc514" />
 
 
 Para la elaboración de este portafolio se utilizó una herramienta de inteligencia artificial únicamente como apoyo para conocer la forma adecuada de desglosar y organizar los temas desarrollados. El análisis, desarrollo de actividades, ejercicios, conclusiones y otros contenidos fueron realizados por el estudiante.
